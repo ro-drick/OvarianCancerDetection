@@ -125,7 +125,7 @@ git clone https://github.com/ro-drick/OvarianCancerDetection.git
 Navigate into the project directory:
 
 ```bash
-cd YOUR_REPOSITORY
+cd OvarianCancerDetection
 ```
 
 ### Run the project
