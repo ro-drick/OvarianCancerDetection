@@ -69,18 +69,18 @@ Where:
 
 The linear output is passed through the sigmoid function to produce a probability between 0 and 1:
 
-\[
-\sigma(z) = \frac{1}{1+e^{-z}}
-\]
+$$
+sigma(z) = \frac{1}{1+e^{-z}}
+$$
 
 ### 3. Loss function
 
 Binary cross-entropy measures the difference between the predicted probabilities and actual labels:
 
-\[[
+$$
 L = -\frac{1}{m}\sum_{i=1}^{m}
 [y_i\log(p_i)+(1-y_i)\log(1-p_i)]
-\]]
+$$
 
 ### 4. Gradient descent
 
@@ -88,13 +88,13 @@ The model calculates gradients and updates its parameters iteratively to minimiz
 
 The parameter updates are:
 
-\[
+$$
 \beta_0 := \beta_0-\alpha\frac{\partial L}{\partial\beta_0}
-\]
+$$
 
-\[
+$$
 \beta := \beta-\alpha\frac{\partial L}{\partial\beta}
-\]
+$$
 
 Where \(\alpha\) is the learning rate.
 
