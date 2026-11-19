@@ -12,7 +12,6 @@ The goal is to build a **multivariable logistic regression model from scratch**,
 
 By implementing the algorithm manually, this project provides a practical understanding of how logistic regression works internally — from calculating predictions to computing gradients and updating model parameters through gradient descent.
 
-> **Disclaimer:** This project is for educational and research purposes only. It is not a medical diagnostic tool and must not be used to make clinical decisions.
 
 ## 🎯 Project Objectives
 
@@ -61,9 +60,6 @@ Where:
 - $\beta$ represents the feature coefficients.
 - $\beta_0$ represents the intercept.Where:
 
-- \(X\) represents the input feature matrix.
-- \(\beta\) represents the feature coefficients.
-- \(\beta_0\) represents the intercept.
 
 ### 2. Sigmoid function
 
@@ -96,7 +92,7 @@ $$
 \beta := \beta-\alpha\frac{\partial L}{\partial\beta}
 $$
 
-Where \(\alpha\) is the learning rate.
+Where $\alpha$ is the learning rate.
 
 ## ⚙️ Technologies Used
 
@@ -123,7 +119,7 @@ pip install numpy pandas kagglehub
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/ro-drick/OvarianCancerDetection.git
 ```
 
 Navigate into the project directory:
@@ -206,7 +202,6 @@ This project is an educational exploration of machine learning applied to a heal
 
 A high training accuracy does not necessarily mean that a model generalizes well. Clinical usefulness would require independent validation, assessment of data quality and bias, and rigorous evaluation by qualified medical professionals.
 
-**This model should not be used to diagnose, screen, or guide treatment for ovarian cancer.**
 
 ## 👨‍💻 Author
 
